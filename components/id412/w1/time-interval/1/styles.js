@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const Counter = styled.div`
-  font-size: 15vw;
+  font-size: 10vw;
   color: white;
   font-weight: bold;
 `;
