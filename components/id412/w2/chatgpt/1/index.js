@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as S from "./styles";
 
-//call gpt from api/openai/gpt-4o
+//call gpt from api/openai/gpt-4o 1
 
 export default function ChatGPT() {
   const [systemContent, setSystemContent] = useState("");
@@ -33,6 +33,8 @@ export default function ChatGPT() {
       }
     }
   }
+
+
 
   return (
     <S.ChatGPTContainer>
